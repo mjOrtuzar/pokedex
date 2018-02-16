@@ -18,21 +18,40 @@
             </div>
         </div>
     </header>
-
+    <section id="search">
+        <div class="container">
+            <form id="searchForm">
+                <label for="search-keyword" class="visuallyhidden">¿que pokemon buscas?</label>
+                <input id="pkmnInput" type="text" name="search-keyword" placeholder="Rayquaza" required>
+                <input id="searchInput" class="btn btn-primary" type="submit" value="Buscar">
+            </form>
+        </div>
+    </section>
     <section>
         <div id="container">
             <div class="row">
-                
-                <div class="col-md-4" id="pokemon">
-                    <div class="input-group mb-3">
-                        <input id="pkmnInput" type="input" class="form-control" placeholder="Pokemon Name" aria-describedby="basic-addon2">
-                        <div class="input-group-append">
-                            <button id= "searchInput"class="btn btn-outline-secondary" type="submit">Button</button>
+                <div class="col-md-6" id="data-content">
+                    <div class="row">
+                        <div class="col-md-9" id="screenPkmn">
+                            
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-9" id="dataPkmn-show">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+
                 </div>
                 
-                <div class="col-md-6" id="data-pkmn"></div>
+                <div class="col-md-4" id="pokemon">
+                    
+                </div>
+                
+                
             </div>
         </div>
     </section>

@@ -1,5 +1,30 @@
+body{
+    background-color: #E20000;
+}
 #pokemon{
     overflow-y: scroll;
-    height: 600px;
+    height: 500px;
+    
+}
+#data-content{
+    margin-left: 40px;
+}
+#dataPkmn-show{
+    background-color: rgb(24, 175, 24);
+    height: 200px;
+    margin-top: 10px;
+    
+}
+#screenPkmn{
+    background-color: #fff;
+    border: 1em solid #000;
+    height: 300px;
+    text-align: center;
+}
+.pokeimg{
+    width: 200px;
+    height: 200px;
+    margin-top:7px;
+    background-repeat: no-repeat;
     
 }
